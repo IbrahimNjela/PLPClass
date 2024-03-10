@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image_links</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .menu {
+            list-style-type: none;
+        }
+
+        .menu li {
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Image Links</h1>
+    <p>This is a webpage with different sections that contain linked images related to different topics.</p>
+    <h2>Home</h2>
+    <p>Welcome to my home page. Here is an image related to technology:</p>
+    <a href="^1^"><img src="Technology.jpg" alt="Technology"></a>
+    <h2>Gallery</h2>
+    <p>Here is a gallery of images related to nature:</p>
+    <div class="gallery">
+        <a href="https://www.google.com/nature.jpg"><img src="Nature.jpg" alt="Nature"></a>
+        <a href="https://www.google.com/nature.jpg"><img src="Nature.jpg" alt="Technology"></a>
+        <a href="https://www.google.com/nature.jpg"><img src="Nature.jpg" alt="Food"></a>
+    </div>
+    <h2>Menu</h2>
+    <p>Here is a menu of food items, each linked to an image related to that food:</p>
+    <ul class="menu">
+        <li><a href="https://www.google.com/food.jpg">Food</a> - <a href="https://www.google.com/food.jpg"><img src="Food.jpg" alt="Food"></a></li>
+        <li><a href="https://www.google.com/food.jpg">Mixed Food</a> - <a href="https://www.google.com/food.jpg"><img src="Food.jpg" alt="Food"></a></li>
+        <li><a href="https://www.google.com/food.jpg">Variety of food</a> - <a href="https://www.google.com/food.jpg"><img src="Food.jpg" alt="Food"></a></li>
+    </ul>
+</body>
+</html>
